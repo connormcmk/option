@@ -26,6 +26,7 @@ Option is a governance product that makes it only profitable for companies to do
 
 ## How does Option work?
 
+### Prediction Markets for Policy Setting
 The key idea behind Option is a prediction market where it's free to be accurate and expensive to be wrong. The predictions that players make are encoded directly into Option's native currency, making it risky to accept dubious predictions at face value, and therefore risky to make dubious predictions as others may not want to accept them as part of a payment.
 
 Option can combine those predictions in order to automatically set policy for communities.
@@ -38,11 +39,15 @@ As a second order effect of this system, soft drink providers like PepsiCo or Co
 
 In this way, Option maintains individual autonomy while localizing individual responsibility; using markets and preferences instead of legislative bodies.
 
+### Externalities
+
 But, what about situations where members of a community are harmed by the actions of a company that they don't buy from?
 
 For example, what if a mining operation leaches toxins into a nearby river, which harms a biodiverse ecosystem and degrades the health of locals? If those locals don't purchase products made from the mined minerals they cannot exert influence by boycotting the goods, so it would seem they don’t have market-based ability to minimize the pollution.
 
 Those familiar with economics will recognize that this is a classic example of a *negative externality*, a bad thing that doesn't have an immediate cost associated with it. In this case, the locals and the ecosystem are harmed but the mining operation doesn't pay for that, so they enjoy artificially high profits. In other words, the mining company has socialized costs while privatizing gains.
+
+### The Shortcomings of Regulation
 
 One option to solve this problem is regulation. For example, the local government could say, "No more than 0.010 parts per million of arsenic in the water, otherwise we'll fine you 1 million dollars."
 
@@ -52,7 +57,8 @@ However, regulation has some well known problems:
 3. Regulation is often non-dynamic — it doesn't update with new knowledge
 4. Regulators can become "captured" — the entities they should regulate find ways to influence the decision in their favor
 
-The field of economics offers a clever solution to this problem called,  "Coasian Bargaining". The idea is named after Ronald Coase who won the Nobel Prize in Economics for this and related ideas. 
+### Coasian Bargaining
+The field of economics offers a clever alternative to regulation called,  "Coasian Bargaining". The idea is named after Ronald Coase who won the Nobel Prize in Economics for this and related ideas. 
 What would Coase recommend to these people whose river is being polluted? He would tell them to pay the mining operation to pollute less. The mining operation could agree to implement policies to reduce their pollution in exchange for the community paying them to offset the costs of implementing the policies. 
 
 However, we can see some obvious issues with this idea:
@@ -70,6 +76,8 @@ Now you can see why Coasian Bargaining is of limited application, it only works 
 2. It's easy and cheap to validate performance.
 3. The people who are affected are able to pay.
 
+### Option's Coasian Bargaining
+
 How does Option get around this? Option allows the local community to put negative valued money into the digital wallet of the mining operation. This forces the mining company to engage with the community. In exchange for this ability, the local community makes predictions (which they stake) that the mining operation can dispute. For example, they might say:
 1. “It only costs 1 million dollars to reduce pollution by 50%”
 2. “Every year, the mining company leaches 500,000 liters of pollution into the river”
@@ -83,6 +91,8 @@ But what happens if the local community overestimated the size of the future cos
 3. “Future generations, when asked, will be willing to pay $10 million for the healthier community and ecosystem they enjoy thanks to the reduction in pollution”
 
 By taking this action, the mining company reduces the amount of negative money Option places in their account. However, this isn't the end of the story. Now all the money that was bet by the mining company and the local community come into play. That money becomes a bounty which can be paid to researchers and journalists for helping to refine the accuracy of the predictions.
+
+### Disverifier Selection
 
 How do these journalists, and researchers get selected and paid? That's the question this grant will fund.
 
@@ -99,13 +109,13 @@ Furthermore, it's possible this work is worth funding even if optimal disverifie
 5. Bug bounty and open source software funding via predictions like, “This project has no vulnerabilities.” Which simultaneously offers information about the confidence of the developers, while providing bounties for red teaming.
 
 
-#### Use of Funds
+## Use of Funds
 This grant will fund three primary activities performed by the [Decision Science and Control (DeSCon)](http://cs.uccs.edu/~pbrown2/lab.html) lab of [Dr. Philip Brown](http://cs.uccs.edu/~pbrown2/) or affiliates:
 1. Prove game theoretic properties about the model (or simplified versions)
 2. Implement the model in-silico and characterize its behaviors
 3. (Stretch Goal) Implement Option as an interactive game
 
-#### Questions worth exploring:
+### Questions worth exploring:
 - What's the Byzantine Fault Tolerance of the inference model?
 - Can we characterize capacity for information aggregation?
 - How do wealth effects (e.g. high income inequality) affect system behavior? 
@@ -121,6 +131,7 @@ This is an incredibly high level overview of Option and its purpose. If you woul
 * [Claim Market Prototype](https://coda.io/@connor/claim-market-prototype) This is a toy implementation of the Claim Market, the token layer of Option. It tells a story which helps to capture how Option prevents bribery and funds independent research. It’s implemented in Coda, so you can copy the doc and see all the underlying formulas.
 * [Semantic Market Deck](example.com) This deck overviews the mechanisms of the Semantic Market, the adjudication layer of Option. It shows how economically weak players can still win against wealthy players, and how policy relevance can be game theoretically built up by recursively making, “I could be wrong if” statements.  
 
+## Adoption Plausibility
 Finally, it's worth addressing the most common objection to Option: if Option makes it more expensive to purchase goods *and* less profitable to sell goods, how will it ever get adopted?
 
 There are two good answers to this.
