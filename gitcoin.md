@@ -1,4 +1,8 @@
-Option is a governance framework so that it’s only profitable for companies to do good and a tool for communities to choose for themselves what counts as good.
+## What's Option?
+
+Option is a governance product that makes it only profitable for companies to do good, and a tool for communities to choose for themselves what counts as good.
+
+## Why use Option?
 
 #### For consumers:
 1. It's easy to express personal values in a way that will change companies' behavior
@@ -20,9 +24,9 @@ Option is a governance framework so that it’s only profitable for companies to
 1. It's easy to find and form communities of shared values
 2. It's easy to make collective choices
 
-### How does Option achieve this?
+## How does Option work?
 
-The key idea behind Option is a prediction market where it's free to be accurate and expensive to be wrong. Those predictions are encoded directly into Option's native currency, making it risky to accept dubious predictions at face value, and therefore risky to make dubious predictions as others may not want to accept them as part of a payment.
+The key idea behind Option is a prediction market where it's free to be accurate and expensive to be wrong. The predictions that players make are encoded directly into Option's native currency, making it risky to accept dubious predictions at face value, and therefore risky to make dubious predictions as others may not want to accept them as part of a payment.
 
 Option can combine those predictions in order to automatically set policy for communities.
 
@@ -34,7 +38,9 @@ As a second order effect of this system, soft drink providers like PepsiCo or Co
 
 In this way, Option maintains individual autonomy while localizing individual responsibility; using markets and preferences instead of legislative bodies.
 
-But, what about situations where members of a community are harmed by the actions of a company that they don't buy from? For example, what if a mining operation leaches toxins into a nearby river, which harms a biodiverse ecosystem and degrades the health of locals? If those locals don't purchase products made from the mined minerals they cannot exert influence by boycotting the goods, so it would seem they don’t have market-based ability to minimize the pollution.
+But, what about situations where members of a community are harmed by the actions of a company that they don't buy from?
+
+For example, what if a mining operation leaches toxins into a nearby river, which harms a biodiverse ecosystem and degrades the health of locals? If those locals don't purchase products made from the mined minerals they cannot exert influence by boycotting the goods, so it would seem they don’t have market-based ability to minimize the pollution.
 
 Those familiar with economics will recognize that this is a classic example of a *negative externality*, a bad thing that doesn't have an immediate cost associated with it. In this case, the locals and the ecosystem are harmed but the mining operation doesn't pay for that, so they enjoy artificially high profits. In other words, the mining company has socialized costs while privatizing gains.
 
