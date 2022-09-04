@@ -1,8 +1,8 @@
-## What's Option?
+# What's Option?
 
 Option is a governance product that makes it only profitable for companies to do good, and a tool for communities to choose for themselves what counts as good.
 
-## Why use Option?
+# Why use Option?
 
 #### For consumers:
 1. It's easy to express personal values in a way that will change companies' behavior
@@ -24,7 +24,7 @@ Option is a governance product that makes it only profitable for companies to do
 1. It's easy to find and form communities of shared values
 2. It's easy to make collective choices
 
-## How does Option work?
+# How does Option work?
 
 ### Prediction Markets for Policy Setting
 The key idea behind Option is a prediction market where it's free to be accurate and expensive to be wrong. The predictions that players make are encoded directly into Option's native currency, making it risky to accept dubious predictions at face value, and therefore risky to make dubious predictions as others may not want to accept them as part of a payment.
@@ -78,7 +78,7 @@ Now you can see why Coasian Bargaining is of limited application, it only works 
 
 ### Option's Coasian Bargaining
 
-How does Option get around this? Option allows the local community to put negative valued money into the digital wallet of the mining operation. This forces the mining company to engage with the community. In exchange for this ability, the local community makes predictions (which they stake) that the mining operation can dispute. For example, they might say:
+How does Option get around this? Option allows the local community to put negative valued money into the digital wallet of the mining operation. This forces the mining company to negotiate with the community. In exchange for this ability, the local community makes predictions (which they stake) that the mining operation can dispute. For example, they might say:
 1. “It only costs 1 million dollars to reduce pollution by 50%”
 2. “Every year, the mining company leaches 500,000 liters of pollution into the river”
 3. “Future generations, when asked, will be willing to pay $100 million for the healthier community and ecosystem they enjoy thanks to the reduction in pollution”
@@ -94,7 +94,7 @@ By taking this action, the mining company reduces the amount of negative money O
 
 ### Disverifier Selection
 
-How do these journalists, and researchers get selected and paid? That's the question this grant will fund.
+How do these journalists and researchers get selected and paid? That's the question this grant will fund.
 
 The funds earned from this grant will go toward exploring the exact mechanism for how to select informed, unbiased, and sincere researchers and journalists (or "disverifiers" in Option's parlance). There are three reasons to think this is a tractable problem:
 1. Option offers a natural way to identify bias — a measure of ideological “distance”. 
@@ -109,7 +109,7 @@ Furthermore, it's possible this work is worth funding even if optimal disverifie
 5. Bug bounty and open source software funding via predictions like, “This project has no vulnerabilities.” Which simultaneously offers information about the confidence of the developers, while providing bounties for red teaming.
 
 
-## Use of Funds
+# Use of Funds
 This grant will fund three primary activities performed by the [Decision Science and Control (DeSCon)](http://cs.uccs.edu/~pbrown2/lab.html) lab of [Dr. Philip Brown](http://cs.uccs.edu/~pbrown2/) or affiliates:
 1. Prove game theoretic properties about the model (or simplified versions)
 2. Implement the model in-silico and characterize its behaviors
@@ -129,9 +129,9 @@ This grant will fund three primary activities performed by the [Decision Science
 
 This is an incredibly high level overview of Option and its purpose. If you would like to learn more about the details of the mechanisms that underpin Option, here are some good places to start:
 * [Claim Market Prototype](https://coda.io/@connor/claim-market-prototype) This is a toy implementation of the Claim Market, the token layer of Option. It tells a story which helps to capture how Option prevents bribery and funds independent research. It’s implemented in Coda, so you can copy the doc and see all the underlying formulas.
-* [Semantic Market Deck](example.com) This deck overviews the mechanisms of the Semantic Market, the adjudication layer of Option. It shows how economically weak players can still win against wealthy players, and how policy relevance can be game theoretically built up by recursively making, “I could be wrong if” statements.  
+* [Semantic Market Deck](https://drive.google.com/drive/folders/1hr206yCj5DviOgDMG69LAd7m1UP1RDH0) This deck overviews the mechanisms of the Semantic Market, the adjudication layer of Option. It shows how economically weak players can still win against wealthy players, and how policy relevance can be game theoretically built up by recursively making, “I could be wrong if” statements.  
 
-## Adoption Plausibility
+# Adoption Plausibility
 Finally, it's worth addressing the most common objection to Option: if Option makes it more expensive to purchase goods *and* less profitable to sell goods, how will it ever get adopted?
 
 There are two good answers to this.
