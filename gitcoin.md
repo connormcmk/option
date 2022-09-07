@@ -169,3 +169,5 @@ Some consumers will reject transacting in non-Option currencies just as some peo
 Finally, for regulators and lawmakers Option provides new mechanics for making regulations that are responsive to the research community. In the long run, communities, nations, and planets with better foresight and a better ability to avoid negative externalities will outlast those that don't.
 
 ---
+
+Exciting, huh? Ready to [go back to Gitcoin and hit that Add to Cart button](https://gitcoin.co/grants/7496/option-governance-for-profitable-goods)?
