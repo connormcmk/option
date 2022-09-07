@@ -39,11 +39,11 @@ Due to the value of accurate predictions, many prediction market platforms have 
 2. Hidden Information — Since earning money is dependent on having special knowledge, betting markets incent proprietary information and insider trading
 3. Policy Impotence — Even if a market offers a very accurate prediction, there’s nothing to ensure policymakers will listen to it or interpret it correctly.
 
-Option circumvents these shortcomings by taking away the opportunity for upside from an accurate trade. In Option, it’s free to be right and expensive to be wrong. This counterintuitive choice allows Option to redress the shortcomings of prediction markets for use in governance. For example, this design choice solves certain kinds of Moral Hazard: if the man in the leotard had known the best that could happen is he wouldn’t lose $50,000 he never would have put on the leotard in the first place.
+**Option circumvents these shortcomings by taking away the opportunity for upside from an accurate trade. In Option, it’s free to be right and expensive to be wrong.** This counterintuitive choice allows Option to redress the shortcomings of prediction markets for use in governance. For example, this design choice solves certain kinds of Moral Hazard: if the man in the leotard had known the best that could happen is he wouldn’t lose $50,000 he never would have put on the leotard in the first place.
 
-Option automatically sets its policies based on the predictions of the market. So, when a player bets they don’t expect to be paid for accurate bets, instead, Option players make bets in exchange for shifting the market prediction, and therefore shifting policy. This solves Policy Impotence: predictions in the market directly set policy.
+**Option automatically sets its policies based on the predictions of the market.** So, when a player bets they don’t expect to be paid for accurate bets, instead, Option players make bets in exchange for shifting the market prediction, and therefore shifting policy. This solves Policy Impotence: predictions in the market directly set policy.
 
-Since Option doesn’t have to pay out for accurate bets, it can instead use that money to pay for information that lead to resolution of the prediction. Standing “resolution bounties” indicate the most high value places where a player can provide information. This solves Hidden Information: players are paid for information.
+Since Option doesn’t have to pay out for accurate bets, it can instead use that money to **pay for information that lead to resolution of a prediction**. Standing “resolution bounties” indicate the most high value places where a player can provide information. This solves Hidden Information: players are paid for information.
 
 The details of the mechanisms that power Option are beyond the scope of this grant (if you’re interested you’ll find links at the end). However, it’s worth being familiar with the two general mechanism sets Option uses:
 1. the Claim Market
@@ -70,14 +70,14 @@ Had New York City citizens been able to use Option, those who wanted to avoid un
 
 As a second order effect of this system, soft drink providers like PepsiCo or CocaCola would find aggregate demand drop for the goods predicted to be unhealthy, incenting them to reduce the health implications of their products.
 
-In this way, Option maintains individual autonomy while localizing individual responsibility; using markets and preferences instead of legislative bodies.
+In this way, **Option maintains individual autonomy while localizing individual responsibility; using markets and preferences instead of legislative bodies.**
 
 ### Externalities
 But, what about situations where members of a community are harmed by the actions of a company that they don't buy from?
 
 For example, what if a mining operation leaches toxins into a nearby river, which harms a biodiverse ecosystem and degrades the health of locals? If those locals don't purchase products made from the mined minerals they cannot exert influence by boycotting the goods, so it would seem they don’t have market-based ability to minimize the pollution.
 
-Those familiar with economics will recognize that this is a classic example of a negative externality, a “bad” thing that doesn't have a cost associated with it. In this case, the locals and the ecosystem are harmed but the mining operation doesn't pay for that, so they enjoy artificially high profits. The mining company has socialized costs while privatizing gains.
+Those familiar with economics will recognize that this is a classic example of a negative externality, a “bad thing” that doesn't have a cost associated with it. In this case, the locals and the ecosystem are harmed but the mining operation doesn't pay for that, so they enjoy artificially high profits. The mining company has socialized costs while privatizing gains.
 
 ### The Shortcomings of Regulation
 One option to solve this problem is regulation. For example, the local government could say, "No more than 0.010 parts per million of arsenic in the water, otherwise we'll fine you 1 million dollars."
@@ -109,7 +109,7 @@ Now you can see why Coasian Bargaining is of limited application, it only works 
 3. The people who are affected are able to pay.
 
 ### Option's Coasian Bargaining
-How does Option get around this? Option still uses a form of Coasian Bargaining, but rather than pay the mining company to pollute less, Option allows the local community to put negative valued money into the mining operation’s digital wallet. This forces the mining company to negotiate with the community. In exchange for this ability, the local community makes predictions (which they stake) that the mining operation can dispute. For example, they might say:
+How does Option get around this? Option still uses a form of Coasian Bargaining, but rather than pay the mining company to pollute less, **Option allows the local community to put negative valued money into the mining operation’s digital wallet.** This forces the mining company to negotiate with the community. In exchange for this ability, the local community makes predictions (which they stake) that the mining operation can dispute. For example, they might say:
 1. “It only costs 1 million dollars to reduce pollution by 50%”
 2. “Every year, the mining company leaches 500,000 liters of pollution into the river”
 3. “Future generations, when asked, will be willing to pay $100 million for the healthier community and ecosystem they enjoy thanks to the reduction in pollution”
@@ -124,12 +124,13 @@ By taking this action, the mining company reduces the amount of negative money O
 
 ### Disverifier Selection
 How do these journalists and researchers get selected and paid? That's one question this grant will fund.
-The funds earned from this grant will go toward exploring the exact mechanism for how to select informed, unbiased, and sincere researchers and journalists (or "disverifiers" in Option's parlance). There are three reasons to think this is a tractable problem:
+
+The funds earned from this grant will go toward exploring the exact mechanism for how to select informed, unbiased, and sincere researchers and journalists (or "disverifiers" in Option's parlance). There are three reasons this is a tractable problem:
 1. Option offers a natural way to identify bias — a measure of ideological “distance”.
 2. Sincerity and accuracy can be well incented by staking mechanisms.
 3. Iterative deepening of predictions is a mechanism for incenting precise and resolvable predictions.
 
-Furthermore, this work is worth funding even if optimal disverifier selection proves impossible. It may be possible that the worst case performance of Option is still marginally better than some existing governance process. For example, we might imagine that Option fails to live up to the standards of the real-world legal system, but offers efficiencies for use in:
+Furthermore, this work is worth funding even if optimal disverifier selection proves impossible. It may be possible that the worst case performance of Option is still marginally better than other existing governance processes. For example, we might imagine that Option fails to live up to the standards of the real-world legal system, but offers efficiencies for use in:
 1. Governance of Decentralized Autonomous Organizations
 2. Open science modeling, e.g. in regenerative agriculture
 3. Governance of content moderation on platforms like YouTube, Facebook, and Twitter or their web3 alternatives
