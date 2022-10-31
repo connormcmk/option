@@ -33,7 +33,7 @@ Option is a prediction market for governance. Communities that use Option enjoy 
 ## How does Option work?
 
 ### Prediction Markets for Policy Setting
-Option is a prediction market for governance. [Prediction markets](https://en.wikipedia.org/wiki/Prediction_market) have long been considered an effective way [for groups to make more accurate collective inferences](https://www.science.org/doi/10.1126/science.1157679). The basic way a traditional prediction market works is simple: Anyone can create a market. Like, “It will rain on Thursday.” Then other people can bet on the outcome. If the market maker says it rained then the people that bet YES get paid, otherwise the people that bet NO get paid. 
+Option is a prediction market for governance. [Prediction markets](https://en.wikipedia.org/wiki/Prediction_market) have long been considered an effective way [for groups to make more accurate collective inferences](https://www.science.org/doi/10.1126/science.1157679). The basic way a traditional prediction market works is simple: Anyone can create a market. Like, “It will rain on Thursday.” Then other people can predict the outcome. If the market maker says it rained then the people that predicted YES get paid, otherwise the people that predicted NO get paid. 
 Due to the value of accurate predictions, many prediction market platforms have sprung up such as [Augur](https://augur.net/), [Metaculus](https://www.metaculus.com/questions/), [Manifold Markets](https://manifold.markets/home), among many others. Each of these platforms are excellent at aggregating information and incenting accurate predictions, however, they cannot be used for governance. This is because traditional prediction markets suffer from three shortcomings that prevent their usage as governance tools:
 1. Moral Hazard — The ability to bet on a particular outcome can create bad incentives. For example,  In 2021 a man bet $50,000 that there would be a streaker at the Super Bowl, then [he put on a leotard and became that streaker](https://www.pokertube.com/article/super-bowl-streaker-bet-50-000-on-himself-but-bovada-won-t-pay-out).
 2. Hidden Information — Since earning money is dependent on having special knowledge, betting markets incent proprietary information and insider trading
@@ -41,9 +41,9 @@ Due to the value of accurate predictions, many prediction market platforms have 
 
 **Option circumvents these shortcomings by taking away the opportunity for upside from an accurate trade. In Option, it’s free to be right and expensive to be wrong.** This counterintuitive choice allows Option to redress the shortcomings of prediction markets for use in governance. For example, this design choice solves certain kinds of Moral Hazard: if the man in the leotard had known the best that could happen is he wouldn’t lose $50,000 he never would have put on the leotard in the first place.
 
-**Option automatically sets its policies based on the predictions of the market.** So, when a player bets they don’t expect to be paid for accurate bets, instead, Option players make bets in exchange for shifting the market prediction, and therefore shifting policy. This solves Policy Impotence: predictions in the market directly set policy.
+**Option automatically sets its policies based on the predictions of the market.** So, when a player predicts they don’t expect to be paid for accurate predictions, instead, Option players make predictions in exchange for shifting the market consensus, and therefore shifting policy. This solves Policy Impotence: predictions in the market directly set policy.
 
-Since Option doesn’t have to pay out for accurate bets, it can instead use that money to **pay for information that lead to resolution of a prediction**. Standing “resolution bounties” indicate the most high value places where a player can provide information. This solves Hidden Information: players are paid for information.
+Since Option doesn’t have to pay out for accurate predictions, it can instead use that money to **pay for information that lead to resolution of a prediction**. Standing “resolution bounties” indicate the most high value places where a player can provide information. This solves Hidden Information: players are paid for information.
 
 The details of the mechanisms that power Option are beyond the scope of this grant (if you’re interested you’ll find links at the end). However, it’s worth being familiar with the two general mechanism sets Option uses:
 1. the Claim Market
@@ -120,7 +120,7 @@ But what happens if the local community overestimated the size of the future cos
 2. “Every year, we only leach 100,000 liters of pollution into the river”
 3. “Future generations, when asked, will be willing to pay $10 million for the healthier community and ecosystem they enjoy thanks to the reduction in pollution”
 
-By taking this action, the mining company reduces the amount of negative money Option places in their account. However, this isn't the end of the story. Now all the money that was bet by the mining company and the local community come into play. That money becomes a bounty which can be paid to researchers and journalists for helping to refine the accuracy of the predictions.
+By taking this action, the mining company reduces the amount of negative money Option places in their account. However, this isn't the end of the story. Now all the money that was predicted by the mining company and the local community come into play. That money becomes a bounty which can be paid to researchers and journalists for helping to refine the accuracy of the predictions.
 
 ### Disverifier Selection
 How do these journalists and researchers get selected and paid? That's one question this grant will fund.
