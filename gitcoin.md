@@ -1,11 +1,3 @@
-Option is the fruit of seven years of work to design an economic system that can price externalities. 
-
-Funding from this grant will be used to employ a research lab in characterizing the behavior of Option via direct proof and simulation. In particular, the research lab will focus on the subproblem of judicial selection.
-
-If you’re interested in this project, you might also like to support [Digital Gaia’s Grant](https://gitcoin.co/grants/5468/digital-gaia-high-integrity-impact-certificates-f) (disclaimer, Connor is a team member there, too). Digital Gaia is also working on a credible way to price externalities, starting with climate externalities. We need as many people working on this problem as possible.
-
----
-
 ## What's Option?
 Option is a prediction market for governance. Communities that use Option enjoy an environment where it’s profitable for companies to do what’s considered good by the community.
 
